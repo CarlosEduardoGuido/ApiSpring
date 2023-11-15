@@ -1,6 +1,8 @@
 # ApiSpring
 API con Spring Boot y documentada con Swagger
-# Script de la base de datos utilizada
+## Script de la base de datos
+
+```
 create database db_springboot_dev;
 CREATE TABLE `db_springboot_dev`.`clientes` (
   `id_cliente` INT ZEROFILL NOT NULL AUTO_INCREMENT,
@@ -13,3 +15,4 @@ INSERT INTO clientes (nombre, apellido, correo, fecha_registro) VALUES('Joel', '
 INSERT INTO clientes (nombre, apellido, correo, fecha_registro) VALUES('Carlos', 'Miranda', 'mirandaTr98@gmail.com', '2023-08-02');
 INSERT INTO clientes (nombre, apellido, correo, fecha_registro) VALUES('Marcela', 'Sanchez', 'schMarce@itb.com', '2023-08-03');
 INSERT INTO clientes (nombre, apellido, correo, fecha_registro) VALUES('Ben', 'Tennyson', 'ben10@cn.com', '2023-08-04');
+```
